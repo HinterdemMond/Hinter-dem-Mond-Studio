@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "{{ product.metafields.reviews.rating | metafield_text }}",
             "text_style": "uppercase"
           }
         },
