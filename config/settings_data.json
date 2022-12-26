@@ -129,7 +129,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Welcome to our store. Versandkosten frei ab 40€",
               "text_alignment": "center",
               "color_scheme": "background-2",
               "link": ""
