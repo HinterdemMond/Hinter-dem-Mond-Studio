@@ -1,0 +1,78 @@
+{% for block in section.blocks %}
+  <div {{ block.shopify_attributes }}>
+    <div class="robin-pro" id="{{ block.settings.gallery_id }}"></div>
+  </div>
+{% endfor %}
+
+
+{% schema %}
+  {
+    "name": "Robin PRO Image Gallery",
+    "blocks": [
+      {
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [
+          {
+            "label": "Gallery",
+            "type": "select",
+            "id": "gallery_id",
+            "options": [
+{
+  "value": "d34f3d03-94fc-4cfe-911d-a3d0294d90bf",
+  "label": "Retro Print"
+},
+{
+  "value": "b062f656-43df-416a-9ce0-72cba7e3807d",
+  "label": "Fuchs"
+},
+{
+  "value": "b573d478-a7e6-41bd-ae50-be58d2c5fcde",
+  "label": "Meer"
+},
+{
+  "value": "d97b3896-d917-4c6c-863f-8abd913670ce",
+  "label": "Frauen"
+},
+{
+  "value": "2ca8daef-5738-4363-941b-ead7ad85f4e2",
+  "label": "Frauen-Shirts"
+},
+{
+  "value": "7a03deda-ad30-4dad-9046-bfda0a3f78be",
+  "label": "Goblinccore"
+},
+{
+  "value": "90ab69b7-d1ad-4828-84c1-308684ca59b4",
+  "label": "Cottagecore"
+},
+{
+  "value": "2d1ebcbf-d3f6-4128-b351-12950da2980a",
+  "label": "Eule"
+},
+{
+  "value": "3fd3cc4f-804c-4ab8-9519-8c6a9028d42f",
+  "label": "Winter"
+},
+{
+  "value": "92aa5ca7-2b0f-4d0f-84ee-c066c2ab5693",
+  "label": "Seepferdchen mit Meerespflanzen"
+},
+{
+  "value": "77a25de9-cadd-4fc3-aa15-8d165938401e",
+  "label": "Vögel"
+}
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Robin PRO Image Gallery",
+        "category": "Robin PRO Image Gallery App",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}
