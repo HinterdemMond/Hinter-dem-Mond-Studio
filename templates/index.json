@@ -26,12 +26,11 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "{{ shop.brand.cover_image }}",
+            "image": "shopify:\/\/shop_images\/tim-cooper-XfqGuWevmvs-unsplash-1080x1080.jpg",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
@@ -49,6 +48,7 @@
         "slide-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-julissa-helmuth-4962458-1080x1080.jpg",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
@@ -66,6 +66,7 @@
         "slide-2": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/annie-spratt-wW-B4vndPYA-unsplash-1080x1080.jpg",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
