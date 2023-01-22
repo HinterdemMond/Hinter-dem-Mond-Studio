@@ -28,6 +28,7 @@
     },
     "757614f8-433d-4995-a4f8-598ce8225674": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--17265771118857__757614f8-433d-4995-a4f8-598ce8225674-16743826867a4f9d91-0": {
           "type": "featured_collection",
