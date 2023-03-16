@@ -1,29 +1,5 @@
 {
   "sections": {
-    "rich-text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Introduce your brand<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 52
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -95,6 +71,29 @@
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand."
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Ein Ort zum Stöbern für phantasievolle Menschen.<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 52
       }
     },
     "rich-text-1": {
@@ -473,8 +472,8 @@
     }
   },
   "order": [
-    "rich-text",
     "slideshow",
+    "rich-text",
     "rich-text-1",
     "featured-collection",
     "image-with-text",
