@@ -111,7 +111,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Featured collection</p>",
+            "heading": "<p>Neuigkeiten</p>",
             "heading_size": "h2"
           }
         }
