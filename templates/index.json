@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -6,7 +15,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/t-shirt-mockup-featuring-a-woman-on-a-dock-holding-someone-s-hand-21939.png",
+            "image": "shopify://shop_images/t-shirt-mockup-featuring-a-woman-on-a-dock-holding-someone-s-hand-21939.png",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
@@ -24,7 +33,7 @@
         "slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-julissa-helmuth-4962458-1080x1080.jpg",
+            "image": "shopify://shop_images/pexels-julissa-helmuth-4962458-1080x1080.jpg",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
@@ -42,7 +51,7 @@
         "slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/template-of-a-pillow-lying-on-a-black-acapulco-chair-a15178.png",
+            "image": "shopify://shop_images/template-of-a-pillow-lying-on-a-black-acapulco-chair-a15178.png",
             "heading": "",
             "heading_size": "medium",
             "subheading": "",
@@ -79,7 +88,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Ein Ort zum Stöbern für phantasievolle Menschen.<\/p>",
+            "heading": "<p>Ein Ort zum Stöbern für phantasievolle Menschen.</p>",
             "heading_size": "h1"
           }
         }
@@ -102,7 +111,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Featured collection<\/p>",
+            "heading": "<p>Featured collection</p>",
             "heading_size": "h2"
           }
         }
@@ -127,7 +136,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "eule",
+        "collection": "new-collection",
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
@@ -148,7 +157,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -161,6 +169,7 @@
       "block_order": [
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "small",
@@ -176,7 +185,6 @@
     },
     "image-with-text-1": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -197,6 +205,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "large",
@@ -216,7 +225,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Featured collection<\/p>",
+            "heading": "<p>Featured collection</p>",
             "heading_size": "h2"
           }
         }
@@ -262,18 +271,17 @@
     },
     "rich-text-3": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>SHOP BY ARTIST<\/p>"
+            "text": "<p>SHOP BY ARTIST</p>"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your collections<\/p>",
+            "heading": "<p>Talk about your collections</p>",
             "heading_size": "h1"
           }
         }
@@ -282,6 +290,7 @@
         "text",
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -340,7 +349,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column": {
           "type": "column",
@@ -355,6 +363,7 @@
       "block_order": [
         "column"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -376,10 +385,20 @@
       "type": "apps",
       "blocks": {
         "e53efa13-a075-4a3b-a1df-6148bf79aee8": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
@@ -404,13 +423,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Melde dich bei unserem Newsletter an und bekomme alle Neuigkeiten mit<\/p>"
+            "text": "<p>Melde dich bei unserem Newsletter an und bekomme alle Neuigkeiten mit</p>"
           }
         },
         "form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -427,7 +445,6 @@
     },
     "image-with-text-2": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -457,6 +474,7 @@
         "caption",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "small",

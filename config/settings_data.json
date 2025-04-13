@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#fcfcfc",
@@ -106,9 +115,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/facebook.com\/hinterdemmond",
+    "social_facebook_link": "https://facebook.com/hinterdemmond",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/hinter_dem_mond_shop\/",
+    "social_instagram_link": "https://www.instagram.com/hinter_dem_mond_shop/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -139,8 +148,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -178,7 +186,7 @@
           "image": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/pexels-nikhlesh-tyagi-3090487.jpg",
+              "image": "shopify://shop_images/pexels-nikhlesh-tyagi-3090487.jpg",
               "image_width": 200,
               "alignment": "right"
             }
@@ -187,7 +195,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Discover with us the wonderful world hidden behind the moon. Look closer and discover the beauty of the unknown.<\/p>"
+              "subtext": "<p>Discover with us the wonderful world hidden behind the moon. Look closer and discover the beauty of the unknown.</p>"
             }
           }
         },
@@ -225,19 +233,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#202a36",
           "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "chat_with_us",
           "greeting_message": "👋 Hi, wenn du Fragen hast, lass es uns wissen. Wir sind gerne für dich da!"
         }
       }
@@ -384,8 +390,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -432,7 +437,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
