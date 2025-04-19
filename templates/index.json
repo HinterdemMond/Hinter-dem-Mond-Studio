@@ -225,7 +225,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Cottagecore</p>",
+            "heading": "<p>Frühlingsgefühle</p>",
             "heading_size": "h2"
           }
         }
@@ -250,13 +250,13 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cottagecore",
+        "collection": "fruhlingsgefuhle",
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": true,
@@ -391,9 +391,9 @@
             "title_color": "",
             "title_size_v2": 0,
             "alignment": "center",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "margin_sides": 0,
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
             "show_instagram_link": false,
             "link_alignment": "left",
             "link_color": "#000000",
