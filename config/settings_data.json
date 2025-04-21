@@ -186,9 +186,9 @@
           "image": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/pexels-nikhlesh-tyagi-3090487.jpg",
+              "image": "shopify://shop_images/hinter-dem-mond-logo.png",
               "image_width": 200,
-              "alignment": "right"
+              "alignment": "center"
             }
           },
           "text": {
